@@ -23,10 +23,12 @@ function startStopwatch() {
         clearInterval(timer);
     }
     timer = setInterval(stopwatch, 1000);
+
 }
 
 function stopStartStopwatch() {
     clearInterval(timer);
+    
 }
 
 function resetStopwatch() {

@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #8d8b8b;
     font-family: 'Courier Prime', monospace;
     font-family: 'Playfair Display', serif;
 }
 
-.stopwatch{
+.stopwatch {
     width: 90%;
     max-width: 600px;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(images/img2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/img2.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -26,7 +26,7 @@ body{
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
-.stopwatch h1{
+.stopwatch h1 {
     margin-bottom: 60px;
     margin-top: 50px;
     font-size: 54px;
@@ -40,12 +40,22 @@ body{
     justify-content: center;
 }
 
-.buttons img{
-    width: 50px;
+.button-container {
+    text-align: center;
     margin: 0 20px;
+}
+
+.buttons img {
+    width: 50px;
     cursor: pointer;
 }
 
-.buttons img:nth-child(2){
-  width: 80px;
+.buttons img.img2 {
+    width: 80px;
+}
+
+.button-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
 }

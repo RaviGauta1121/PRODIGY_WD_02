@@ -10,11 +10,20 @@
     <div class="stopwatch">
         <h1 id="displayTime" class="h1">00:00:00</h1>
         <div class="buttons">
-            <img src="images/img1.jpg" onclick="stopStartStopwatch()">
-            <img src="images/img4.jpg" onclick="startStopwatch()">
-            <img src="images/img3.jpg" onclick="resetStopwatch()">
+            <div class="button-container">
+                <img src="images/img1.jpg" onclick="stopStartStopwatch()">
+                <p>Stop</p>
+            </div>
+            <div class="button-container">
+                <img class="img2" src="images/img4.jpg" onclick="startStopwatch()">
+                <p>Start</p>
+            </div>
+            <div class="button-container">
+                <img src="images/img3.jpg" onclick="resetStopwatch()">
+                <p>Reset</p>
+            </div>
         </div>
     </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
